@@ -2,7 +2,13 @@ header {
     font-family:serif;
 }
 
-.header-grid {
+.header-grid {    
+    position: fixed;
+    top: 0;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #0F0E0E;
+    align-items: center;
 }
 
