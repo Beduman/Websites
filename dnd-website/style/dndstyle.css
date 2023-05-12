@@ -9,15 +9,23 @@ header, h1, h2, h3 {
     font-family: serif;
 }
 
+a:link, a:visited {
+    color: #8D99AE;
+}
+
+a:hover {
+    color:#1E1E24;
+}
+
 body {
     text-align: center;
-    background-color: #0F0E0E;
+    background-color: #1E1E24;
     color: aliceblue;
 }
 
 
 header {
-    font-family:serif;
+    font-size: 1.4em;
 }
 
 .header-grid {    
@@ -26,7 +34,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    background-color: #0F0E0E;
+    background-color: #9b1d20;
     align-items: center;
 }
 
@@ -36,7 +44,7 @@ header {
 }
 
 .logo {
-    width: 70%;
+    width: 40%;
     justify-self: center;
 }
 
@@ -50,7 +58,7 @@ header {
 }
 
 .home-link:hover {
-    background-color: #CC3363;
+    background-color: #8D99AE;
     transform: scale(1.1);
 }
 
@@ -65,7 +73,7 @@ header {
 }
 
 .lore-link:hover {
-    background-color: #CC3363;
+    background-color: #8D99AE;
     transform: scale(1.1);
 }
 
@@ -79,7 +87,7 @@ header {
 }
 
 .homebrew-link:hover {
-    background-color: #CC3363;
+    background-color: #8D99AE;
     transform: scale(1.1);
 }
 
@@ -93,7 +101,7 @@ header {
 }
 
 .index-link:hover {
-    background-color: #CC3363;
+    background-color: #8D99AE;
     transform: scale(1.1);
 }
 
@@ -105,7 +113,17 @@ header {
     justify-self: center;
 }
 
+.header-spacing {
+    padding: 100px;
+}
 
+.spacing {
+    padding: 20px;
+}
+
+.hero-image {
+    width: 50%;
+}
 
 .home-grid {
     display: grid;
@@ -118,36 +136,55 @@ header {
 .card-img {
     border: 10px solid #30323D;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #FCF7FF;
 }
 
 .card-img:hover {
     transform: scale(1.1);
 }
 
-.rivers-card {
-    grid-column: 2/4;
-    grid-row: 2/3;
-}
-
-.camping-card {
+.head {
     grid-column: 5/7;
-    grid-row: 2/3;
+    grid-row: 3/4;
+}
+.miner-card {
+    grid-column: 2/4;
+    grid-row: 6/7;
 }
 
-.rapids-card {
-    grid-column: 8/10;
-    grid-row: 2/3;
+.capital-card {
+    grid-column: 5/7;
+    grid-row: 6/7;
 }
-.mountains {
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+
+.village-card {
+    grid-column: 8/10;
+    grid-row: 6/7;
+}
+.map {
+    grid-column: 2/6;
+    grid-row: 1/2;
+    box-shadow: 5px 5px 10px #FCF7FF;
+    width: 100%;
+}
+
+.msg {
+    background-color: #387D7A;
+    color: #FCF7FF;
+    font-size: 1.2em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 1/2;
+    box-shadow: 5px 5px 10px #FCF7FF;
 }
 
 
 footer {
     text-align: center;
-    background-color: #CC3363;
-    color: #0F0E0E;
+    background-color: #8D99AE;
+    color: #1E1E24;
+}
+
+.footer-logo {
+    width: 60px;
 }
