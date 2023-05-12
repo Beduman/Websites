@@ -12,6 +12,7 @@ header, h1, h2, h3 {
 body {
     text-align: center;
     background-color: #0F0E0E;
+    color: aliceblue;
 }
 
 
@@ -121,7 +122,6 @@ header {
 }
 
 .card-img:hover {
-    opacity: .6;
     transform: scale(1.1);
 }
 
