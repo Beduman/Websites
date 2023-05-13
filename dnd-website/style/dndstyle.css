@@ -10,7 +10,7 @@ header, h1, h2, h3 {
 }
 
 a:link, a:visited {
-    color: #8D99AE;
+    color: #1E1E24;
 }
 
 a:hover {
@@ -34,7 +34,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    background-color: #9b1d20;
+    background-color: #387D7A;
     align-items: center;
 }
 
@@ -169,7 +169,7 @@ header {
 }
 
 .msg {
-    background-color: #387D7A;
+    background-color: #8D99AE;
     color: #FCF7FF;
     font-size: 1.2em;
     padding: 35px;
@@ -181,7 +181,7 @@ header {
 
 footer {
     text-align: center;
-    background-color: #8D99AE;
+    background-color: #387D7A;
     color: #1E1E24;
 }
 
