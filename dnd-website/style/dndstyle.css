@@ -91,7 +91,7 @@ header {
     transform: scale(1.1);
 }
 
-.index-link {
+.map-link {
     grid-column: 2/3;
     grid-row: 1/2;
     width: 70%;
@@ -100,7 +100,7 @@ header {
     transition: .5s;
 }
 
-.index-link:hover {
+.map-link:hover {
     background-color: #8D99AE;
     transform: scale(1.1);
 }
