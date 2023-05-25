@@ -9,6 +9,10 @@ header, h1, h2, h3 {
     font-family: serif;
 }
 
+header {
+    max-height: 10%;
+}
+
 a:link, a:visited {
     color: #1E1E24;
 }
