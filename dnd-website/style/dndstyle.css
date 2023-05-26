@@ -190,11 +190,15 @@ header {
 }
 
 .homebrew-hero {
-    width:60%;
+    width: 60%;
     border: 10px solid #30323D;
 }
 .lore {
     text-align: left;
+}
+
+.only-image {
+    width: 80%
 }
 footer {
     text-align: center;
